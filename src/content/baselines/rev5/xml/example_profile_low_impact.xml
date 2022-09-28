@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/usnistgov/OSCAL/release-1.0/xml/schema/oscal_complete_schema.xsd" schematypens="http://www.w3.org/2001/XMLSchema" title="OSCAL complete schema"?>
+<profile xmlns="http://csrc.nist.gov/ns/oscal/1.0"
+         uuid="45212-21520-45525">
+   <metadata>
+      <title>Important Federal Agency Baseline - Low Impact</title>
+      <published>2022-09-28 12:00:00:00</published>
+      <last-modified>2022-09-28 12:00:00:00</last-modified>
+      <version>0.0.5</version>
+      <oscal-version>1.0.1</oscal-version>
+   </metadata>
+   <import href="https://raw.githubusercontent.com/usnistgov/oscal-content/main/nist.gov/SP800-53/rev5/xml/NIST_SP-800-53_rev5_catalog.xml">
+      <include-controls/>
+          <with-id>ac-01</with-id>
+      </include-controls>
+   </import>
+   <merge>
+      <combine method="keep"/>
+      <as-is>true</as-is>
+   </merge>
+   <back-matter/>
+</profile>
